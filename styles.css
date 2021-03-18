@@ -1,3 +1,51 @@
+
 body {
-    background-color: rgb(252, 232, 201);
+    background-color: aqua;
+    font-family: sans-serif;
+    font-size: 16px;
 }
+
+h1, h2, h3, h4 ,h5, h6{
+    font-weight: normal;
+    
+}
+
+#nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+
+    ;
+}
+
+p {
+    text-align: justify;
+    line-height: 2em;
+    
+}
+
+.posts article, #footer > section:first-child {
+    text-align: justify;
+    line-height: 2em;
+    border: dashed #CCCCCC 2px;
+}
+
+form input:hover, form textarea:hover {
+    background-color: green;
+}
+
+ 
+ #nav {
+     position: fixed;
+     top: 0;
+     width: 100%;
+ }
+
+ #nav li {
+     padding: 11px;
+     display: inline-block;
+     background-color: hotpink;
+ }
+
+ .posts article {
+color: red;
+ }
