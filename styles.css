@@ -1,6 +1,6 @@
 
 body {
-    background-color: aqua;
+    background-color: rgb(238, 229, 187);
     font-family: sans-serif;
     font-size: 16px;
 }
@@ -13,14 +13,11 @@ h1, h2, h3, h4 ,h5, h6{
 #nav a {
     text-transform: uppercase;
     text-decoration: none;
-
-    ;
 }
 
 p {
     text-align: justify;
-    line-height: 2em;
-    
+    line-height: 2em;    
 }
 
 .posts article, #footer > section:first-child {
@@ -43,9 +40,19 @@ form input:hover, form textarea:hover {
  #nav li {
      padding: 11px;
      display: inline-block;
-     background-color: hotpink;
+     background-color: rgb(219, 168, 150);
  }
 
  .posts article {
-color: red;
+     padding: 0 1vw;
+     display: inline-block;
+     width: 47% ;
+     position: relative;
+     margin-top: 5px;
+}
+
+ form {
+    width: 50%;
+    margin: auto;
+    text-align: center;       
  }
